@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Balsamiq Sans", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(111, 111, 111); */
+  /* color: white; */
+}
+
+/* Utility stylings */
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* nav elements */
+.nav {
+  background-color: rgb(0, 0, 0);
+  min-height: 80px;
+}
+
+.nav-container {
+  /* background-color: orange; */
+  min-height: 80px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  font-size: 36px;
+  font-weight: normal;
+  color: white;
+}
+
+.nav-links {
+  flex: 2;
+  /* background-color: blue; */
+  justify-content: flex-start;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  justify-content: flex-start;
+}
+
+.nav-links li {
+  padding-left: 30px;
+}
+
+.nav-links a {
+  color: rgb(193, 193, 193);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+span {
+  font-weight: bold;
+  color: rgb(228, 228, 228);
+}
+
+#sign-out {
+  width: 100px;
+  height: 36px;
+  box-shadow: 5px 5px black;
+  color: white;
+  background-color: rgb(0, 153, 175);
+  font-size: 22px;
+  border-style: none;
+}
+
+/* main elements */
+.main {
+  align-items: flex-start;
+  background-color: green;
+  min-height: 600px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* main left elements */
+.main-left {
+  background-color: purple;
+  min-height: 600px;
+  flex: 2;
+}
+
+.profile-card {
+  background-color: red;
+  min-height: 400px;
+}
+
+.education-card {
+  background-color: rgb(55, 44, 254);
+  min-height: 200px;
+}
+
+/* main right elements */
+.main-right {
+  background-color: rgb(177, 92, 1);
+  min-height: 600px;
+  flex: 1;
+}
+
+.connect-request {
+  background-color: darkorange;
+  min-height: 200px;
+}
+
+.connections {
+  background-color: greenyellow;
+  min-height: 400px;
+}
