@@ -265,7 +265,7 @@ a {
 .conreq-list-container h2 {
   /* padding-left: 6px; */
   flex: 2;
-  margin-left: 2px;
+  margin-left: 5px;
 }
 
 .reqcon-button {
@@ -320,4 +320,37 @@ a {
   font-weight: normal;
   font-size: 25px;
   color: white;
+}
+
+.conns-list-container {
+  /* background-color: aquamarine; */
+  min-height: 60px;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.conns-user-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.conns-list-container h2 {
+  /* padding-left: 6px; */
+  flex: 2;
+  margin-left: 10px;
+}
+
+.conns-view-more-footer {
+  margin-top: 15px;
+  padding-top: 15px;
+  /* background-color: red; */
+  /* min-height: 50px; */
+  border-top: 6px solid lightgray;
+  /* padding-top: 10px; */
+}
+
+.conns-view-more-footer a {
+  font-size: 25px;
 }
