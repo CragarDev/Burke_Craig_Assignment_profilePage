@@ -137,9 +137,9 @@ span {
 .lower-bar {
   background-color: white;
   min-height: 300px;
-  border-bottom: 4px solid lightgray;
-  border-left: 4px solid lightgray;
-  border-right: 4px solid lightgray;
+  border-bottom: 6px solid lightgray;
+  border-left: 6px solid lightgray;
+  border-right: 6px solid lightgray;
   padding-top: 70px;
 }
 
@@ -175,6 +175,9 @@ a {
 .education-card {
   background-color: white;
   min-height: 200px;
+  border-left: 6px solid lightgray;
+  border-right: 6px solid lightgray;
+  border-bottom: 6px solid lightgray;
 }
 
 .sub-header {
@@ -184,6 +187,10 @@ a {
   color: white;
   padding-left: 30px;
   padding-top: 15px;
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  margin-left: -6px;
+  margin-right: -6px;
 }
 
 .edu-date {
@@ -206,13 +213,21 @@ a {
 .conreq-container {
   background-color: rgb(255, 255, 255);
   min-height: 200px;
+  padding-bottom: 2px;
+  border-left: 6px solid lightgray;
+  border-right: 6px solid lightgray;
+  border-bottom: 6px solid lightgray;
 }
 
 .conreq-header {
   background-color: black;
-  min-height: 50px;
+  min-height: 70px;
   margin: 0 auto;
   margin-bottom: 20px;
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  margin-left: -6px;
+  margin-right: -6px;
 }
 
 .conreq-counter {
@@ -229,6 +244,7 @@ a {
 
 .conreq-title {
   font-weight: normal;
+  font-size: 25px;
   color: white;
 }
 
@@ -236,6 +252,7 @@ a {
   /* background-color: aquamarine; */
   min-height: 60px;
   justify-content: space-between;
+  padding-right: 10px;
 }
 
 .conreq-user-img {
@@ -254,21 +271,53 @@ a {
 .reqcon-button {
   background-image: none;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   margin: 0 5px;
 }
 
 #accept img {
-  width: 40px;
+  width: 35px;
 }
 
 #cancel img {
-  width: 40px;
+  width: 35px;
 }
 
 /* Connections */
 .connections {
-  background-color: greenyellow;
-  min-height: 350px;
+  background-color: white;
+  min-height: 450px;
+  border-left: 6px solid lightgray;
+  border-right: 6px solid lightgray;
+  border-bottom: 6px solid lightgray;
+}
+
+.conns-header {
+  background-color: black;
+  min-height: 80px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  margin-left: -6px;
+  margin-right: -6px;
+}
+
+.conns-counter {
+  background-color: lightgray;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+  width: 65px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.conns-title {
+  font-weight: normal;
+  font-size: 25px;
+  color: white;
 }
