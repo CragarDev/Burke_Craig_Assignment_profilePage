@@ -15,8 +15,16 @@
   align-items: center;
 }
 
-.mb {
+.mb30 {
   margin-bottom: 30px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
 }
 
 .relative {
@@ -62,10 +70,11 @@
   color: rgb(193, 193, 193);
   text-decoration: none;
   font-size: 20px;
+  font-weight: normal;
 }
 
 span {
-  font-weight: bold;
+  /* font-weight: bold; */
   color: rgb(228, 228, 228);
 }
 
@@ -98,13 +107,13 @@ span {
 }
 
 .profile-card {
-  background-color: red;
+  /* background-color: red; */
   min-height: 400px;
 }
 
 .user-photo {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border: 6px solid lightgray;
   border-radius: 50%;
   position: absolute;
@@ -112,14 +121,52 @@ span {
   left: 30px;
 }
 
-.education-card {
-  background-color: rgb(55, 44, 254);
-  min-height: 250px;
-}
-
 .top-bar {
   background-color: rgb(0, 153, 175);
   min-height: 100px;
+}
+
+.lower-bar {
+  background-color: white;
+  min-height: 300px;
+  border-bottom: 4px solid lightgray;
+  border-left: 4px solid lightgray;
+  border-right: 4px solid lightgray;
+  padding-left: 30px;
+  padding-top: 70px;
+}
+
+.lower-bar h1 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.location h2 {
+  margin-left: 12px;
+}
+
+.map-icon {
+  width: 15px;
+}
+
+.user-skills h3 {
+  font-size: 18px;
+}
+
+.settings-gear-icon {
+  width: 25px;
+}
+
+a {
+  color: rgb(19, 107, 223);
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 12px;
+}
+
+.education-card {
+  background-color: rgb(55, 44, 254);
+  min-height: 250px;
 }
 
 /* main right elements */
