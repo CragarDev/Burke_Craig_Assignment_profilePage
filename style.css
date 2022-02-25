@@ -13,7 +13,14 @@
 .flex {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+.relative {
+  position: relative;
 }
 
 /* nav elements */
@@ -23,6 +30,7 @@
 }
 
 .nav-container {
+  justify-content: space-between;
   /* background-color: orange; */
   min-height: 80px;
   width: 70%;
@@ -73,8 +81,9 @@ span {
 
 /* main elements */
 .main {
+  justify-content: space-between;
   align-items: flex-start;
-  background-color: green;
+  /* background-color: green; */
   min-height: 600px;
   width: 70%;
   margin: 0 auto;
@@ -82,8 +91,9 @@ span {
 
 /* main left elements */
 .main-left {
-  background-color: purple;
+  /* background-color: purple; */
   min-height: 600px;
+  margin-right: 30px;
   flex: 2;
 }
 
@@ -92,14 +102,29 @@ span {
   min-height: 400px;
 }
 
+.user-photo {
+  width: 100px;
+  height: 100px;
+  border: 6px solid lightgray;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
 .education-card {
   background-color: rgb(55, 44, 254);
-  min-height: 200px;
+  min-height: 250px;
+}
+
+.top-bar {
+  background-color: rgb(0, 153, 175);
+  min-height: 100px;
 }
 
 /* main right elements */
 .main-right {
-  background-color: rgb(177, 92, 1);
+  /* background-color: rgb(177, 92, 1); */
   min-height: 600px;
   flex: 1;
 }
