@@ -27,6 +27,10 @@
   margin-bottom: 10px;
 }
 
+.pl10 {
+  padding-left: 10px;
+}
+
 .pl30 {
   padding-left: 30px;
 }
@@ -167,6 +171,7 @@ a {
   margin-left: 12px;
 }
 
+/* Education */
 .education-card {
   background-color: white;
   min-height: 200px;
@@ -197,11 +202,72 @@ a {
   flex: 1;
 }
 
-.connect-request {
-  background-color: darkorange;
+/* Connection Requests */
+.conreq-container {
+  background-color: rgb(255, 255, 255);
   min-height: 200px;
 }
 
+.conreq-header {
+  background-color: black;
+  min-height: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.conreq-counter {
+  background-color: lightgray;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.conreq-title {
+  font-weight: normal;
+  color: white;
+}
+
+.conreq-list-container {
+  /* background-color: aquamarine; */
+  min-height: 60px;
+  justify-content: space-between;
+}
+
+.conreq-user-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.conreq-list-container h2 {
+  /* padding-left: 6px; */
+  flex: 2;
+  margin-left: 2px;
+}
+
+.reqcon-button {
+  background-image: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+#accept img {
+  width: 40px;
+}
+
+#cancel img {
+  width: 40px;
+}
+
+/* Connections */
 .connections {
   background-color: greenyellow;
   min-height: 350px;

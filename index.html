@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- Begin Nav -->
     <div class="nav mb30">
       <div class="nav-container flex">
         <h1 class="nav-logo">Profile</h1>
@@ -23,8 +24,15 @@
         <button id="sign-out" type="submit">Sign Out</button>
       </div>
     </div>
+    <!-- End Nav -->
+
+    <!-- Begin Main -->
     <div class="main flex">
+
+      <!-- Begin Main Left -->
       <div class="main-left">
+
+        <!-- Begin Profile Section -->
         <div class="profile-card mb30 relative">
           <!-- Upper blue bar -->
           <div class="top-bar">
@@ -35,7 +43,6 @@
               alt="user photo"
             />
           </div>
-
           <!-- Lower White user info bar -->
           <div class="lower-bar pl30">
             <h1 class="mb10">Jane Doe</h1>
@@ -61,6 +68,9 @@
             </div>
           </div>
         </div>
+        <!-- End Profile Section -->
+
+        <!-- Begin Education Section -->
         <div class="education-card mb30">
           <h3 class="sub-header mb20">Education</h3>
           <div class="edu-content pl30">
@@ -69,10 +79,69 @@
             <h3 class="edu-description">Triple black belt in Python, mMERN, and C#...</h3>
           </div>
         </div>
+        <!-- End Education Section -->
       </div>
+      <!-- End Main Left -->
+
+      <!-- Begin Main Right Side -->
       <div class="main-right">
-        <div class="connect-request mb30"></div>
-        <div class="connections"></div>
+
+        <!-- Begin Connection Requests Section -->
+        <div class="conreq-container mb30">
+          <div class="conreq-header flex pl10">
+            <div class="conreq-counter">
+              <h3>2</h3>
+            </div>
+            <h3 class="conreq-title pl10">Connection Requests</h3>
+          </div>
+
+          <!-- Begin the List of connection requests -->
+          <div class="conreq-list-container flex mb20 pl10">
+            <img class="conreq-user-img" src="./images/users/todd-s.jpg" alt="connection request user photo">
+            <h2>Todd E</h2>
+            <button id="accept" class="reqcon-button"><img src="./images/icons/accept-circle.png" alt="">
+            </button>
+            <button id="cancel" class="reqcon-button"><img src="./images/icons/close-circle.png" alt=""></button>
+          </div>
+          <!-- put new users below this comment -->
+          <div class="conreq-list-container flex mb20 pl10">
+            <img class="conreq-user-img" src="./images/users/phil-s.jpg" alt="connection request user photo">
+            <h2>Phil K</h2>
+            <button id="accept" class="reqcon-button"><img src="./images/icons/accept-circle.png" alt="">
+            </button>
+            <button id="cancel" class="reqcon-button"><img src="./images/icons/close-circle.png" alt=""></button>
+          </div>
+
+          <!--     -->
+        </div>
+        <!-- End Connection Requests Section -->
+
+        <!-- Begin Connections Section -->
+        <div class="connections">
+          <div class="conreq-header flex pl10">
+            <div class="conreq-counter">
+              <h3>2</h3>
+            </div>
+            <h3 class="conreq-title pl10">Connection Requests</h3>
+          </div>
+
+          <!-- Begin the List of connection requests -->
+          <div class="conreq-list-container flex mb20 pl10">
+            <img class="conreq-user-img" src="./images/users/todd-s.jpg" alt="connection request user photo">
+            <h2>Todd E</h2>
+            <button id="accept" class="reqcon-button"><img src="./images/icons/accept-circle.png" alt="">
+            </button>
+            <button id="cancel" class="reqcon-button"><img src="./images/icons/close-circle.png" alt=""></button>
+          </div>
+          <!-- put new users below this comment -->
+          <div class="conreq-list-container flex mb20 pl10">
+            <img class="conreq-user-img" src="./images/users/phil-s.jpg" alt="connection request user photo">
+            <h2>Phil K</h2>
+            <button id="accept" class="reqcon-button"><img src="./images/icons/accept-circle.png" alt="">
+            </button>
+            <button id="cancel" class="reqcon-button"><img src="./images/icons/close-circle.png" alt=""></button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
