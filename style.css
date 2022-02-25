@@ -93,7 +93,8 @@ span {
   color: white;
   background-color: rgb(0, 153, 175);
   font-size: 22px;
-  border-style: none;
+  border-color: black;
+  /* border: none; */
 }
 
 /* main elements */
